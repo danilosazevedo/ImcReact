@@ -36,7 +36,7 @@ function App() {
     return (
         <div className={styles.container}>
             <div className={styles.header}>
-                <img className={styles.logo} src="./src/Img/1.png" alt="" />
+                <img className={styles.logo} src="./src/img/1.png" alt="" />
                 <h1>Calculadora de IMC</h1>
             </div>
             <Form preventDefault className={styles.form}>
@@ -58,7 +58,7 @@ function App() {
                     <Button type='submit' onClick={evento => limpaResult()} className={styles.button}>Refazer Teste</Button>
                     <h3>Resultado</h3>
                     <h6>Seu IMC é de <span className={styles.valorIMC}>{IMC}</span>, o que de acordo com a tabela é considerado <span className={styles.valorIMC}> {diagnostico()}</span></h6>
-                    <img src="./src/Img/tabela.jpg" alt="" />
+                    <img src="./src/img/tabela.jpg" alt="" />
                 </div>
             ) : (<></>)}
         </div >
