@@ -1,0 +1,34 @@
+.container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin: 1em;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    height: 5em;
+}
+
+.form {
+    max-width: 25em;
+    margin: 1em;
+}
+
+.resultado {
+    margin: 1em;
+    display: grid;
+}
+
+.valorIMC{
+    font-size: 2em;
+}
+
+.button{
+    width: 10em;
+}
